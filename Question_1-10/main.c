@@ -7,15 +7,15 @@ int main(int argc, char const *argv[])
     /* Soru 1: Klavyeden girilen bir sayının tek mi çift mi olduğunu bulan C
     programını yazınız.*/
 
-    // int sayi;
+    int sayi;
 
-    // printf("Bir sayi girin: ");
-    // scanf("%d", &sayi);
+    printf("Bir sayi girin: ");
+    scanf("%d", &sayi);
 
-    // if (sayi % 2 == 0)
-    //     printf("%d sayisi cifttir.",sayi);
-    // else
-    //     printf("%d sayisi tektir.",sayi);
+    if (sayi % 2 == 0)
+        printf("%d sayisi cifttir.",sayi);
+    else
+        printf("%d sayisi tektir.",sayi);
 
     // -------------------------------------------------------------------------
 
@@ -174,12 +174,12 @@ int main(int argc, char const *argv[])
     /* Soru 10: 1'den 100'e kadar olan çift sayıları ekrana yazdıran programı
     yazınız. */
 
-    // int i;
+    int i;
 
-    // for (i = 2; i <= 100; i+=2)
-    // {
-    //     printf("%d\n",i);
-    // }
+    for (i = 2; i <= 100; i+=2)
+    {
+        printf("%d\n",i);
+    }
     
 
     return 0;
