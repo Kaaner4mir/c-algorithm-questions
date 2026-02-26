@@ -112,5 +112,55 @@ int main()
 
     // printf("%d sayisinin basamak sayisi: %d", trueNumber, digit);
 
-    // 8. Soru:
+    // 8. Soru: Girilen 3 basamaklı bir sayının basamaklarının küplerinin toplamının
+    // kendine eşit olup olmadığını bulan programı yazınız.
+
+    // int number, temp, digit;
+    // int sum = 0;
+
+    // printf("Bir sayi girin: ");
+    // scanf("%d", &number);
+
+    // temp = number;
+
+    // while (temp > 0)
+    // {
+    //     digit = temp % 10;
+    //     sum += digit * digit * digit;
+    //     temp = temp / 10;
+    // }
+
+    // if (sum == number)
+    //     printf("Sart saglandi.");
+    // else
+    //     printf("Sart saglanmadi.");
+
+    // 9. Soru: Klavyeden girilen 20 adet sayıdan çift sayıları toplamının
+    // tek sayıların toplamına oranın bulan programı yazınız.
+
+    // int number;
+    // float result;
+    // float totalEvenNumbers = 0;
+    // float totalOddNumbers = 0;
+
+    // for (int i = 0; i < 20; i++)
+    // {
+    //     printf("Bir sayi girin: ");
+    //     scanf("%i", &number);
+
+    //     if (number % 2 == 0)
+    //         totalEvenNumbers += number;
+    //     else
+    //         totalOddNumbers += number;
+    // }
+    // result = totalEvenNumbers / totalOddNumbers;
+
+    // printf("%f / %f = %f", totalEvenNumbers, totalOddNumbers, result);
+
+    // 10. Soru: 10 ile 1000 arasındaki tam kare sayılari bulan programı yazınız.
+
+    // for (int i = 10; i * i < 1000; i++)
+    // {
+    //     printf("%i ^ 2 = %0.2f\n", i, pow(i, 2.0));
+    // }
 }
