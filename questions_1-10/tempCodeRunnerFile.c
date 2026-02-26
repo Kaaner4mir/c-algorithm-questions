@@ -81,36 +81,16 @@ int main()
 
     // 6. Soru: Girilen sayının istenilen sayıya göre mod işlemini yaptıran programı yazınız.
 
-    // float dividing, divisor;
-    // float remainder = 0;
+    float dividing, divisor;
+    float remainder = 0;
 
-    // printf("Bolunen sayiyi girin: ");
-    // scanf("%f", &dividing);
+    printf("Bolunen sayiyi girin: ");
+    scanf("%f", &dividing);
 
-    // printf("Bolen sayiyi girin :");
-    // scanf("%f", &divisor);
+    printf("Bolen sayiyi girin :");
+    scanf("%f", &divisor);
 
-    // remainder = fmodf(dividing, divisor);
+    remainder = fmodf(dividing, divisor);
 
-    // printf("%f %% %f = %0.2f", dividing, divisor, remainder);
-
-    // 7. Soru: Girilen sayının kaç basamaklı olduğunu bulan programı yazınız.
-
-    // int number;
-    // int digit = 0;
-
-    // printf("Sayiyi girin: ");
-    // scanf("%d", &number);
-
-    // int trueNumber = number;
-
-    // while (number > 0)
-    // {
-    //     number /= 10;
-    //     digit++;
-    // }
-
-    // printf("%d sayisinin basamak sayisi: %d", trueNumber, digit);
-
-    // 8. Soru:
+    printf("%f %% %f = %0.2f", dividing, divisor, remainder);
 }
